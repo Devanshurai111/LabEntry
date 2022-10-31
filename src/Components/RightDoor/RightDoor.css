@@ -1,0 +1,34 @@
+.RightDoor{
+  width: 49.8%;
+  height: 100vh;
+  position: absolute;
+  margin-left: .4%;
+  border: 5px solid rgb(2, 208, 249);
+  box-sizing: border-box;
+  justify-content: center;
+  right: 0;
+}
+.col{
+transition: 5s;
+right: -100%;
+}
+.rdis{
+  display:inline-flex;
+  
+  width: 250px;
+ 
+ 
+ position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+flex-direction: column;
+row-gap: 20px;
+justify-content: center;
+}
+
+.RightDoor>p{ 
+  float: right; 
+}
+
+  
